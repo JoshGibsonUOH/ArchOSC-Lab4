@@ -257,12 +257,12 @@ ON pc.productcategoryid = p.productcategoryid;
     <div class="alert alert-warning" role="alert">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
-</svg> <strong>Note</strong>
-The above is SQL code, SQL is a programming language that allows you to access and change data within a database. You will cover this in a lot more detail when you begin to use databases. But as a quick explaineer:
-SELECT: The select command is used to recieve data from a table within a database.
-FROM: Is the table you are choosing to retrieve data from.
-JOIN: Joins data from multiple tables, if they have a related column.
-ON: Specifies the reason for joining columns. 
+</svg>
+The above is SQL code, SQL is a programming language that allows you to access and change data within a database. You will cover this in a lot more detail when you begin to use databases. But as a quick explaineer:<br>
+<strong>SELECT:</strong> The select command is used to recieve data from a table within a database.<br>
+<strong>FROM:</strong> Is the table you are choosing to retrieve data from.<br>
+<strong>JOIN:</strong> Joins data from multiple tables, if they have a related column.<br>
+<strong>ON:</strong>Specifies the reason for joining columns. <br>
 
 If you would like more information on this, feel free to look at resources like: https://www.w3schools.com/sql/sql_intro.asp
     </div>
@@ -441,7 +441,7 @@ Add a screenshot to your portfolio showing the database you created in Azure. </
 </body>
 </html>
 
-Database Migration 
+## Database Migration 
 
 There are several reasons, why you would want to migrate data from one database to another, and SSMS lets you do this! 
  
