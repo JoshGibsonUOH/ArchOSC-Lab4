@@ -1,3 +1,6 @@
+# Hosting a Database in the Cloud
+In this lab you will create a basic SQL Database on the cloud. You will access and view the database from both Azure and a Virtualised Device.
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +14,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task</strong>
-Ensure your resource groups are deleted before you start this Lab, if you’re unsure on how to do this: refer to last week's lab for information on how to do this.  
+Ensure your resource groups are deleted before you start this Lab, if you’re unsure on how to do this: refer to previous labs for information on how to do this.  
     </div>
 </div>
 
@@ -21,11 +24,6 @@ Ensure your resource groups are deleted before you start this Lab, if you’re u
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-![Image](Pictures/001.png) 
-
-# Hosting a Database in the Cloud
-In this lab you will create a basic SQL Database on the cloud. You will access and view the database from both Azure and a Virtualised Device.  
 
 ## Create a Database
 Log into Azure as you normally would.  
@@ -44,7 +42,6 @@ Create your database using the following information.
 - Resource Group: Create a new group named “DatabaseLab” 
 - Database Name: mydb 
 - Server Select: Press the create new button 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,9 +79,31 @@ When you have completed the setup of your server, click ok to continue. And you 
 
 - SQL Elastic Pool: Set to no 
 - Workload Environment: Set to Development 
- 
 
-Under “Compute and Storage” select “Configure Database” This will once again take you to a new window.  
+Under “Compute and Storage” select “Configure Database”
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="alert alert-primary" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg> <strong>This will again open up a new window, the following options should be entered in there:</strong>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
  
 Set the following settings to ensure that it works as expected: 
  
@@ -293,7 +312,7 @@ Then set authentication to be SQL server authentication and enter the details of
 
 The result should look like this 
 
-![Image](Pictures/0017.png)  
+![Image](Pictures/017.png)  
 
 Click connect, and you should be able to see your server in the object explorer, similar to the image below 
 
